@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Replit Landing Page</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #fff;
+      padding: 20px 0;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .button {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .hero {
+      background-color: #007bff;
+      color: #fff;
+      padding: 100px 0;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    .features {
+      padding: 50px 0;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
+
+    .feature {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .feature img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+
+    .feature h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .feature p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    .call-to-action {
+      background-color: #007bff;
+      color: #fff;
+      padding: 50px 0;
+      text-align: center;
+    }
+
+    .call-to-action h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    footer ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    footer li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    footer a {
+      text-decoration: none;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Replit</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#" class="button">Get Started</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Build the future, together.</h2>
+      <p>Replit is the all-in-one online IDE that empowers developers of all levels to create amazing things.
+        From web apps and games to machine learning models and more, Replit makes coding accessible and fun.</p>
+      <button class="button">Explore Replit</button>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <h2>What makes Replit special?</h2>
+      <div class="feature-grid">
+        <div class="feature">
+          <img src="https://placehold.co/150" alt="Feature 1">
+          <h3>Real-time Collaboration</h3>
+          <p>Code together with your team in real-time, making development smoother and more efficient.</p>
+        </div>
+        <div class="feature">
+          <img src="https://placehold.co/150" alt="Feature 2">
+          <h3>Hundreds of Languages</h3>
+          <p>Choose from a vast library of languages and frameworks, from Python and JavaScript to C++ and Rust.</p>
+        </div>
+        <div class="feature">
+          <img src="https://placehold.co/150" alt="Feature 3">
+          <h3>Powerful IDE</h3>
+          <p>Replit's IDE is packed with features that make coding a breeze, including autocompletion, debugging, and more.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="call-to-action">
+    <div class="container">
+      <h2>Ready to start coding?</h2>
+      <button class="button">Get Started</button>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Replit Inc.</p>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

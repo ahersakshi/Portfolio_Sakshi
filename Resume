@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Replit Landing Page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Replit</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#" class="button">Get Started</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Build the future, together.</h2>
+      <p>Replit is the all-in-one online IDE that empowers developers of all levels to create amazing things.
+        From web apps and games to machine learning models and more, Replit makes coding accessible and fun.</p>
+      <button class="button">Explore Replit</button>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <h2>What makes Replit special?</h2>
+      <div class="feature-grid">
+        <div class="feature">
+          <img src="https://placehold.co/150" alt="Feature 1">
+          <h3>Real-time Collaboration</h3>
+          <p>Code together with your team in real-time, making development smoother and more efficient.</p>
+        </div>
+        <div class="feature">
+          <img src="https://placehold.co/150" alt="Feature 2">
+          <h3>Hundreds of Languages</h3>
+          <p>Choose from a vast library of languages and frameworks, from Python and JavaScript to C++ and Rust.</p>
+        </div>
+        <div class="feature">
+          <img src="https://placehold.co/150" alt="Feature 3">
+          <h3>Powerful IDE</h3>
+          <p>Replit's IDE is packed with features that make coding a breeze, including autocompletion, debugging, and more.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="call-to-action">
+    <div class="container">
+      <h2>Ready to start coding?</h2>
+      <button class="button">Get Started</button>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Replit Inc.</p>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+
+</html>
